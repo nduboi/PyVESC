@@ -1,5 +1,5 @@
-import pyvesc.protocol.base
-import pyvesc.protocol.packet.codec
+from .base import *
+from .packet import *
 
 
 def decode(buffer):

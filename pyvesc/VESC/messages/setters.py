@@ -1,6 +1,6 @@
-from pyvesc.protocol.base import VESCMessage
-from pyvesc.protocol.interface import encode
-from pyvesc.VESC.messages import VedderCmd
+from ...protocol.base import VESCMessage
+from ...protocol.interface import encode
+from .Vedder_BLDC_Commands import VedderCmd
 
 
 class SetDutyCycle(metaclass=VESCMessage):

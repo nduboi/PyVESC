@@ -1,5 +1,5 @@
-from pyvesc.protocol.interface import encode_request, encode, decode
-from pyvesc.VESC.messages import *
+from ..protocol.interface import encode_request, encode, decode
+from .messages import *
 import time
 import threading
 

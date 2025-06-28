@@ -1,5 +1,5 @@
-from pyvesc.protocol.base import VESCMessage
-from pyvesc.VESC.messages import VedderCmd
+from ...protocol.base import VESCMessage
+from .Vedder_BLDC_Commands import VedderCmd
 
 
 pre_v3_33_fields = [('temp_mos1', 'h', 10),
